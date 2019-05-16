@@ -1,11 +1,59 @@
 /*page style*/
-
+body {
+font-family: Helvetica;
+font-size: 22px;
+color: seashell;
+background-color: black;
+text-align: center;
+opacity: 0.9;
+}
 
 /*header*/
+header {
+  display: flex;
+  position: fixed;
+  z-index: 1;
+  height: 69px;
+  width: 100%;
+  background-color: black;
+  border-bottom: 1px solid seashell;
+}
 
+.logo {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  margin-left: 10px;
+}
+
+.logo img {
+  width: 150px;
+  height: 50px;
+  }
+
+
+nav span{
+  display: inline-block;
+  text-decoration: underline;
+  align-content: right;
+  font-family: Helvetica;
+  font-size: 22px;
+  font-weight: bold;
+  color: seashell;
+}
 
 /*mission*/
+.mission{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  height: 700px;
+  width: 1200px;
+  }
 
+.mission span {
+  align-items: center;
+}
 
 /*featured tea*/
 
