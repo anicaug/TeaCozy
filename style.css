@@ -12,47 +12,60 @@ opacity: 0.9;
 header {
   display: flex;
   position: fixed;
+  align-items: center;
+  justify-content: space-between;
   z-index: 1;
   height: 69px;
   width: 100%;
   background-color: black;
+  color: seashell;
   border-bottom: 1px solid seashell;
 }
 
 .logo {
   display: flex;
-  align-items: center;
   flex-grow: 1;
   margin-left: 10px;
+  color: seashell;
 }
 
 .logo img {
+  display: flex;
+  justify-content: space-around;
   width: 150px;
   height: 50px;
-  }
+}
 
 
 nav span{
+  display: flex;
   display: inline-block;
   text-decoration: underline;
+  color: seashell;
+  align-items: center;
   align-content: right;
+
+}
+
+/*mission*/
+.mission{
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  margin: auto;
+  padding: auto 0px;
+  height: 700px;
+  width: 1200px;
   font-family: Helvetica;
   font-size: 22px;
   font-weight: bold;
   color: seashell;
 }
 
-/*mission*/
-.mission{
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  height: 700px;
-  width: 1200px;
-  }
-
 .mission span {
-  align-items: center;
+  background-color: black;
 }
 
 /*featured tea*/
