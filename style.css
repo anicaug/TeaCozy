@@ -69,8 +69,45 @@ nav span{
 }
 
 /*featured tea*/
+.featured {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  margin: auto;
+  padding: auto 0px;
+  width: 1000px;
+  font-family: Helvetica;
+  font-size: 22px;
+  font-weight: bold;
+  color: seashell;
+}
 
+.teas {
+  display: inline-block;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: auto;
+  padding: auto 0px;
+  font-family: Helvetica;
+  font-size: 22px;
+  font-weight: bold;
+  color: seashell;
+}
 
+.teas img{
+  height: 200px;
+  width: 300px;
+}
+
+.blitz{
+  display: block;
+
+}
+
+/*locations*/
+
+}
 /*locations*/
 
 
