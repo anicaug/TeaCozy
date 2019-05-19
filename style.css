@@ -85,10 +85,7 @@ nav span{
 
 .teas {
   display: inline-block;
-  justify-content: center;
   flex-wrap: wrap;
-  margin: auto;
-  padding: auto 0px;
   font-family: Helvetica;
   font-size: 22px;
   font-weight: bold;
@@ -100,16 +97,41 @@ nav span{
   width: 300px;
 }
 
-.blitz{
-  display: block;
-
+.teas span {
+  display: inline-block;
+  justify-content: space-around;
+  margin: 10px;
 }
 
 /*locations*/
 
+.locations {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: auto;
+  padding: auto 0px;
+  height: 500px;
+  width: 1200px;
+  font-family: Helvetica;
+  font-size: 22px;
+  font-weight: bold;
+  color: seashell;
 }
-/*locations*/
 
+.locations span {
+  display: flex;
+  display: inline-block;
+  margin: 20px 15px;
+  height: 300px;
+  width: 300px;
+  background-color: black;
+  font-family: Helvetica;
+  font-size: 22px;
+  font-weight: bold;
+  color: white;
+}
 
 /*contact*/
 
