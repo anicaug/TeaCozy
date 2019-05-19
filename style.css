@@ -18,15 +18,15 @@ header {
   height: 69px;
   width: 100%;
   background-color: black;
-  color: seashell;
-  border-bottom: 1px solid seashell;
+  color: #5c5956;
+  border-bottom: 1px solid #5c5956;
 }
 
 .logo {
   display: flex;
   flex-grow: 1;
   margin-left: 10px;
-  color: seashell;
+  color: #5c5956;
 }
 
 .logo img {
@@ -41,7 +41,7 @@ nav span{
   display: flex;
   display: inline-block;
   text-decoration: underline;
-  color: seashell;
+  color: #5c5956;
   align-items: center;
   align-content: right;
 
@@ -61,7 +61,7 @@ nav span{
   font-family: Helvetica;
   font-size: 22px;
   font-weight: bold;
-  color: seashell;
+  color: #5c5956;
 }
 
 .mission span {
@@ -80,7 +80,7 @@ nav span{
   font-family: Helvetica;
   font-size: 22px;
   font-weight: bold;
-  color: seashell;
+  color: #5c5956;
 }
 
 .teas {
@@ -89,7 +89,7 @@ nav span{
   font-family: Helvetica;
   font-size: 22px;
   font-weight: bold;
-  color: seashell;
+  color: #5c5956;
 }
 
 .teas img{
@@ -117,12 +117,13 @@ nav span{
   font-family: Helvetica;
   font-size: 22px;
   font-weight: bold;
-  color: seashell;
+  color: #5c5956;
 }
 
 .locations span {
   display: flex;
   display: inline-block;
+  opacity: 1;
   margin: 20px 15px;
   height: 300px;
   width: 300px;
@@ -130,10 +131,33 @@ nav span{
   font-family: Helvetica;
   font-size: 22px;
   font-weight: bold;
-  color: white;
+  color: #5c5956;
 }
 
 /*contact*/
-
+.contact {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  margin: auto;
+  padding: auto 0px;
+  height: 200px;
+  width: 1000px;
+  font-family: Helvetica;
+  font-size: 22px;
+  font-weight: bold;
+  color: #5c5956;
+}
 
 /*copyright*/
+
+.copyright {
+  display: flex;
+  justify-content: flex-start;
+  align-content: left;
+  margin-left: 20px;
+  font-family: Helvetica;
+  font-size: 22px;
+  font-weight: bold;
+  color: #5c5956;
