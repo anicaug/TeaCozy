@@ -2,7 +2,7 @@
 body {
 font-family: Helvetica;
 font-size: 22px;
-color: seashell;
+color: #5c5956;
 background-color: black;
 text-align: center;
 opacity: 0.9;
@@ -47,8 +47,18 @@ nav span{
 
 }
 
+a:link, a:visited {
+  color: #5c5956;
+  font-weight: bold;
+  }
+
+a:hover, a:active {
+  background-color: #6495ed;
+  font-weight: bold;
+}
+
 /*mission*/
-.mission{
+.mission {
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
   display: flex;
   justify-content: center;
